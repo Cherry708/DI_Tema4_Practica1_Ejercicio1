@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DI_Tema4_Practica1_Ejercicio1</string>
+    <string name="menu_home">Inbox</string>
+    <string name="menu_inbox">Inbox</string>
+    <string name="menu_outbox">Outbox</string>
+    <string name="menu_trash">Trash</string>
+    <string name="menu_spam">Spam</string>
+</resources>
