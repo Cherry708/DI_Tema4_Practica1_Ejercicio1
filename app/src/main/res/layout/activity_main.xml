@@ -8,8 +8,9 @@
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
-    <!-- Layout principal de la actividad -->
-    <include layout="@layout/content_main" />
+    <!-- Layout principal de la actividad, es el fragmento que cambiara -->
+    <include
+        layout="@layout/content_main" />
 
     <!-- Layout del menú lateral (Navigation View) -->
     <com.google.android.material.navigation.NavigationView
@@ -18,6 +19,8 @@
         android:layout_height="match_parent"
         android:fitsSystemWindows="true"
         android:layout_gravity="start"
-        app:menu="@menu/menu_navdrawer"/>
+        app:headerLayout="@layout/navigation_header"
+        app:menu="@menu/menu_navdrawer">
+    </com.google.android.material.navigation.NavigationView>
 
 </androidx.drawerlayout.widget.DrawerLayout>

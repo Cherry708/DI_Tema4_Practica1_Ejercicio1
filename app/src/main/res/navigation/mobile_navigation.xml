@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/nav_inbox"
         android:name="com.example.di_tema4_practica1_ejercicio1.InboxFragment"
-        android:label="@string/menu_home"
+        android:label="@string/menu_inbox"
         tools:layout="@layout/fragment_inbox" />
 
     <fragment
@@ -26,7 +26,7 @@
     <fragment
         android:id="@+id/nav_spam"
         android:name="com.example.di_tema4_practica1_ejercicio1.SpamFragment"
-        android:label="@string/menu_trash"
+        android:label="@string/menu_spam"
         tools:layout="@layout/fragment_spam" />
 
 
